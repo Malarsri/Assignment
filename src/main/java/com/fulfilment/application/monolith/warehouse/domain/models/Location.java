@@ -1,4 +1,4 @@
-package com.fulfilment.application.monolith.warehouses.domain.models;
+package com.fulfilment.application.monolith.warehouse.domain.models;
 
 public class Location {
   public String identification;

@@ -1,8 +1,8 @@
-package com.fulfilment.application.monolith.warehouses.domain.usecases;
+package com.fulfilment.application.monolith.warehouse.domain.usecases;
 
-import com.fulfilment.application.monolith.warehouses.domain.models.Warehouse;
-import com.fulfilment.application.monolith.warehouses.domain.ports.ArchiveWarehouseOperation;
-import com.fulfilment.application.monolith.warehouses.domain.ports.WarehouseStore;
+import com.fulfilment.application.monolith.warehouse.domain.models.Warehouse;
+import com.fulfilment.application.monolith.warehouse.domain.ports.ArchiveWarehouseOperation;
+import com.fulfilment.application.monolith.warehouse.domain.ports.WarehouseStore;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped

@@ -17,22 +17,21 @@ import java.util.List;
 public interface WarehouseResource {
 
   @GET
-  List<Warehouse> listAllWarehousesUnits();
+  public List<Warehouse> listAllWarehousesUnits();
 
   @POST
-  Warehouse createANewWarehouseUnit(Warehouse data);
+  public Warehouse createANewWarehouseUnit(Warehouse data);
 
   @GET
   @Path("{id}")
-  Warehouse getAWarehouseUnitByID(@PathParam("id") String id);
+  public Warehouse getAWarehouseUnitByID(@PathParam("id") String id);
 
   @DELETE
   @Path("{id}")
-  void archiveAWarehouseUnitByID(@PathParam("id") String id);
+  public void archiveAWarehouseUnitByID(@PathParam("id") String id);
 
   @POST
   @Path("{businessUnitCode}/replacement")
-  Warehouse replaceTheCurrentActiveWarehouse(
+  public Warehouse replaceTheCurrentActiveWarehouse(
       @PathParam("businessUnitCode") String businessUnitCode, Warehouse data);
 }
-

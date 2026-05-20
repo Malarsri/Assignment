@@ -1,6 +1,6 @@
-package com.fulfilment.application.monolith.warehouses.domain.ports;
+package com.fulfilment.application.monolith.warehouse.domain.ports;
 
-import com.fulfilment.application.monolith.warehouses.domain.models.Warehouse;
+import com.fulfilment.application.monolith.warehouse.domain.models.Warehouse;
 import java.util.List;
 
 public interface WarehouseStore {

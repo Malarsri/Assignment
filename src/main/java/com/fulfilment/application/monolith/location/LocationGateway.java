@@ -1,10 +1,13 @@
 package com.fulfilment.application.monolith.location;
 
-import com.fulfilment.application.monolith.warehouses.domain.models.Location;
-import com.fulfilment.application.monolith.warehouses.domain.ports.LocationResolver;
+import com.fulfilment.application.monolith.warehouse.domain.models.Location;
+import com.fulfilment.application.monolith.warehouse.domain.ports.LocationResolver;
+import jakarta.enterprise.context.ApplicationScoped;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
+@ApplicationScoped
 public class LocationGateway implements LocationResolver {
 
   private static final List<Location> locations = new ArrayList<>();
@@ -21,10 +24,9 @@ public class LocationGateway implements LocationResolver {
   }
 
   @Override
-  public Location resolveByIdentifier(String identifier) {
+  public Optional<Location> resolveByIdentifier(String identifier) {
     return locations.stream()
         .filter(location -> location.identification.equals(identifier))
-        .findFirst()
-        .orElse(null);
+        .findFirst();
   }
 }

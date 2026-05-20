@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6c6b6f4-44e6-40fb-8272-6914ff3cb72e" name="Changes" comment="Changes of case study">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilotDiffState.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study_Malarsri.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATABASE_BEST_PRACTICES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUESTIONS.md" beforeDir="false" afterPath="$PROJECT_DIR$/QUESTIONS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/location/LocationGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/location/LocationGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/adapters/database/DbWarehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/adapters/database/DbWarehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/adapters/database/WarehouseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/adapters/database/WarehouseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/api/WarehouseResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/api/WarehouseResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/api/WarehouseResourceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/api/WarehouseResourceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/api/beans/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/api/beans/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/models/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/models/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/models/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/models/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/ArchiveWarehouseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/ArchiveWarehouseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/CreateWarehouseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/CreateWarehouseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/LocationResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/LocationResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/ReplaceWarehouseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/ReplaceWarehouseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/WarehouseStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/ports/WarehouseStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/usecases/ArchiveWarehouseUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/usecases/ArchiveWarehouseUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/usecases/CreateWarehouseUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/usecases/CreateWarehouseUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/usecases/ReplaceWarehouseUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fulfilment/application/monolith/warehouse/domain/usecases/ReplaceWarehouseUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/fulfilment/application/monolith/location/LocationGatewayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fulfilment/application/monolith/location/LocationGatewayTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="5acdb9a3-e016-460a-83f2-9589b98a5aca" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="5acdb9a3-e016-460a-83f2-9589b98a5aca" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Completed" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="858e012a-aa80-4515-8609-bc2f248883ec" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="27c9b62e-fa24-4b8f-9425-c6427ab29829" />
+            <option name="modeId" value="Ask" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/sri/Documents/Assignment" value="3DlAtzrUQFkUhs6RKohQSmtIhu9" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="inline" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Malarsri"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Malarsri/Assignment.git",
+    "accountId": "9aa38efd-01f7-415e-9b5e-b457e18aec38"
+  }
+}]]></component>
+  <component name="HttpClientEndpointsTabState">
+    <option name="cachedRequestData" value="&lt;CachedHttpClientTabRequests /&gt;" />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3DlAtzrUQFkUhs6RKohQSmtIhu9" />
+  <component name="ProjectSessionTemplates">
+    <option name="inlineTemplate">
+      <template>
+        <option name="modeId" value="InlineAgent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Ask" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Docker.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.LocationGatewayTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LocationGatewayTest.testWhenResolveExistingLocationShouldReturn.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WarehouseEndpointIT.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WarehouseEndpointIT.testSimpleListWarehouses.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;OpenAPI/Swagger Code Generator.warehouse-openapi.yaml.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/Users/sri/Library/Application Support/JetBrains/IntelliJIdea2025.2/plugins/Shell Script/shellcheck&quot;,
+    &quot;Shell Script.mvnw.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fulfilment.application.monolith.warehouse.api.beans" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WarehouseEndpointIT">
+    <configuration name="LocationGatewayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulfilment.application.monolith.location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fulfilment.application.monolith.location" />
+      <option name="MAIN_CLASS_NAME" value="com.fulfilment.application.monolith.location.LocationGatewayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationGatewayTest.testWhenResolveExistingLocationShouldReturn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulfilment.application.monolith.location.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fulfilment.application.monolith.location" />
+      <option name="MAIN_CLASS_NAME" value="com.fulfilment.application.monolith.location.LocationGatewayTest" />
+      <option name="METHOD_NAME" value="testWhenResolveExistingLocationShouldReturn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarehouseEndpointIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulfilment.application.monolith.warehouses.adapters.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fulfilment.application.monolith.warehouses.adapters.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.fulfilment.application.monolith.warehouses.adapters.restapi.WarehouseEndpointIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarehouseEndpointIT.testSimpleListWarehouses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fulfilment.application.monolith.warehouses.adapters.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fulfilment.application.monolith.warehouses.adapters.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.fulfilment.application.monolith.warehouses.adapters.restapi.WarehouseEndpointIT" />
+      <option name="METHOD_NAME" value="testSimpleListWarehouses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warehouse-openapi.yaml" type="SwaggerCodegen" editBeforeRun="true" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="generateToPath" value="$PROJECT_DIR$/src/main/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorType" value="OPENAPI_GENERATOR_V7" />
+      <option name="jdkPath" value="$APPLICATION_HOME_DIR$/jbr/Contents/Home/bin/java" />
+      <option name="language" value="java" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="specificationPath" value="$PROJECT_DIR$/src/main/resources/openapi/warehouse-openapi.yaml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="src/main/docker/Dockerfile.native-micro" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WarehouseEndpointIT" />
+        <item itemvalue="JUnit.WarehouseEndpointIT.testSimpleListWarehouses" />
+        <item itemvalue="JUnit.LocationGatewayTest.testWhenResolveExistingLocationShouldReturn" />
+        <item itemvalue="OpenAPI/Swagger Code Generator.warehouse-openapi.yaml" />
+        <item itemvalue="JUnit.LocationGatewayTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6c6b6f4-44e6-40fb-8272-6914ff3cb72e" name="Changes" comment="" />
+      <created>1778846501604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778846501604</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes of case study" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes of case study" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

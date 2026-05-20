@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-code-assignment (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Assignment" target="17" />
+      <module name="java-code-assignment" target="17" />
+      <module name="java-code-assignment (2)" target="21" />
+      <module name="java-code-assignment (3)" target="17" />
+      <module name="java-code-assignment (4)" target="22" />
+      <module name="java-code-assignment (5)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Assignment" options="-parameters" />
+      <module name="java-code-assignment" options="-parameters" />
+      <module name="java-code-assignment (1)" options="-parameters" />
+      <module name="java-code-assignment (2)" options="-parameters" />
+      <module name="java-code-assignment (3)" options="-parameters" />
+      <module name="java-code-assignment (4)" options="-parameters" />
+      <module name="java-code-assignment (5)" options="-parameters" />
+    </option>
+  </component>
+</project>

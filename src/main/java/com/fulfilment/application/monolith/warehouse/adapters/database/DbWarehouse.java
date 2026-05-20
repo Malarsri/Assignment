@@ -1,6 +1,6 @@
-package com.fulfilment.application.monolith.warehouses.adapters.database;
+package com.fulfilment.application.monolith.warehouse.adapters.database;
 
-import com.fulfilment.application.monolith.warehouses.domain.models.Warehouse;
+import com.fulfilment.application.monolith.warehouse.domain.models.Warehouse;
 import jakarta.persistence.Cacheable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,6 +1,6 @@
-package com.fulfilment.application.monolith.warehouses.domain.ports;
+package com.fulfilment.application.monolith.warehouse.domain.ports;
 
-import com.fulfilment.application.monolith.warehouses.domain.models.Location;
+import com.fulfilment.application.monolith.warehouse.domain.models.Location;
 
 import java.util.Optional;
 
